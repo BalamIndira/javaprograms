@@ -5,7 +5,7 @@ public class Averagearray {
         for(int num:numbers){
             sum+=num;
         }
-        System.out.println("average:"+sum);
-        System.out.println("average:"+sum/2);
+        System.out.println("Sum:"+sum);
+        System.out.println("average:"+sum/numbers.length);
     }
 }
